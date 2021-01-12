@@ -4,10 +4,10 @@ import random
 
 def generate_response(user_input):
   responses = [
-    "How interesting!",
-    "You don't say!",
-    "Very cool!",
-    "Programming is fun!"
+    "The weather is partly cloudy all day!",
+    "Alarm set for 6:00 am",
+    "There are 50 states in the United states",
+    "Thursday is going to be the coldest day of the week "
   ]
   return random.choice(responses)
 
